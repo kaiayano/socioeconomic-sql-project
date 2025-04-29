@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PostgreSQL database files (if you ever export .db or .sql dumps locally)
+*.db
+*.sqlite3
+*.psql
+
+# Environment / IDE files
+.env
+.vscode/
+.idea/
+
+# macOS metadata
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Screenshots (optional images from pgAdmin)
+screenshots/
+
+# GitHub auto-generated files
+*.orig
+
+# Ignore Python virtualenvs
+venv/
+env/
