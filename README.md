@@ -19,14 +19,14 @@ The project uses a dataset (`sgdata.csv`) with 2000 records containing the follo
 
 ## SQL Files
 
-### 1. Database Setup (`create-tables-sql.sql`)
+### 1. Database Setup (`01_create_tables.sql`)
 This script creates the main table structure and supporting indices:
 - Creates the `socio_data` table with appropriate data types
 - Sets up indices for commonly queried columns to improve performance
 - Creates a view for common demographic analysis
 - Adds documentation comments to the table and key columns
 
-### 2. Basic Analysis Queries (`analysis-queries-sql.sql`)
+### 2. Basic Analysis Queries (`02_analysis_queries_.sql`)
 Contains SQL queries for exploratory data analysis:
 - Basic data structure exploration and summary statistics
 - Income distribution analysis
@@ -36,7 +36,7 @@ Contains SQL queries for exploratory data analysis:
 - Age group analysis
 - Marital status and income relationship
 
-### 3. Advanced Statistical Analysis (`advanced-queries-sql.sql`)
+### 3. Advanced Statistical Analysis (`03_advanced_queries_.sql`)
 Provides more sophisticated statistical queries:
 - Income percentile calculations
 - Income quintile distribution
